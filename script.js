@@ -15,4 +15,9 @@ const api = fetch('http://localhost:3000/videos')
          </li>
       `;
 		})
-	);
+	)
+	.catch((error) => {
+		containerVideos.innerHTML = /*html*/ `
+         <p>Houve um erro ao carregar os vídeos: ${error}</p>
+      `;
+	});
