@@ -2,7 +2,8 @@ const containerVideos = document.querySelector('.videos__container');
 
 async function buscarEMostrarVideos() {
 	try {
-		const busca = await fetch('https://raw.githubusercontent.com/Rodolfo-Sampaio/vidflow/main/backend/videos.json');
+		// const busca = await fetch('http://localhost:3000/videos'); // src localhost
+		const busca = await fetch('https://raw.githubusercontent.com/Rodolfo-Sampaio/vidflow/main/backend/videos2.json'); // src GitHub
 		const videos = await busca.json();
 
 		videos.forEach((video) => {
