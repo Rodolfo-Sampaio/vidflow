@@ -67,7 +67,7 @@
 
 /* VIDEO */
 
-.videos__container {
+/* .videos__container {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 10px;
@@ -78,6 +78,17 @@
 	height: 303px;
 	width: 280px;
 	flex-grow: 1;
+} */
+
+/* Usando o display: grid os vídeos se ajustam a largura da pagina mantendo o mesmo tamanho para cada video independente da quantidade de videos */
+.videos__container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 10px;
+}
+
+.videos__item {
+	height: 303px;
 }
 
 .descricao-video {
