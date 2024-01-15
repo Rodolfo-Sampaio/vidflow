@@ -47,6 +47,6 @@ Check out our responsive website at 🚩[VidFlow](https://vidflow-six.vercel.app
 [Rafaela Silvério](https://github.com/rafaelasilverio)
 <br>
 <br>
-#### 🚀 Thanks for checking out my Git. If you liked it, let's swap thoughts! Give me a [`Follow`](https://github.com/Rodolfo-Sampaio) as I'm always around here.  😎👩‍💻
+#### 🚀Thank you for visiting my Git. If you give me a [`Follow`](https://github.com/Rodolfo-Sampaio), I'll be happy to return the favor!  😎👩‍💻
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=87CEFA&height=120&section=footer"/>
